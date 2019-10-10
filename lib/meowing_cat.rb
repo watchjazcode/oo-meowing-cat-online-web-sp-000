@@ -1,6 +1,7 @@
 ## code your solution here. 
 class Cat
- attr_reader
+ attr_reader :
+ attr_accessor
   def name=(dogs_name)
     @name = dogs_name
   end
